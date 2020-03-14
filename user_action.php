@@ -122,7 +122,7 @@
                                   last_name = '$last_name',
                                   address = '$address',
                                   email = '$email',
-                                  phone = '$phone',
+                                  phone = '$phone'
                                   WHERE id = '$user_id'";
 
       $result = mysqli_query($conn, $sql);
